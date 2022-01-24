@@ -1,0 +1,34 @@
+.btn{
+    font-size:inherit;
+    border:none;
+    background: none;
+    outline: none;
+    font-weight: bold;
+    border-radius: 5px;
+    padding:5px 20px;
+    cursor: pointer;
+}
+
+.btn--primary
+{
+    color:white;
+    background-color:hsl(108, 95%, 35%);
+}
+
+.btn--primary:hover{
+    background-color:hsl(108, 95%, 27%);
+}
+
+.btn--danger
+{
+    color:white;
+    background-color:hsl(9, 92%, 50%);
+}
+
+.btn--danger:hover{
+    background-color:hsl(9, 95%, 40%);
+}
+
+.btn--delete{
+    width:65px;
+}

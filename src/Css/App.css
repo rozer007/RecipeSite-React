@@ -1,0 +1,26 @@
+@import-normalize;
+@import 'Font.css';
+@import 'Buttons.css';
+@import 'recipe.css';
+@import 'ingredients-list.css';
+@import 'recipe-edit.css';
+@import 'recipe-list.css';
+
+body{
+    margin:0;
+    padding:0;
+}
+
+html{
+    font-size:15px;
+}
+
+*,*::before,*::after
+{
+ font-family:Gothan Rounded , sans-serif;
+ box-sizing: border-box;
+}
+
+.mr-1{
+    margin-right:5px;
+}
